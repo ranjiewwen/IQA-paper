@@ -64,7 +64,7 @@ result =
 
 - 实验过程中多谢[Image & Video Quality Assessment at LIVE ](http://live.ece.utexas.edu/research/quality/index.htm)实验室开源主页
 
-- 本项目code只包含LIVE库代码，其他CSIQ,TID2013,MLIVE库实验可以类似实现，发现之前滤波窗口设置为`7*7`，改为`3*3`实验效果更好
+- 本项目code只包含LIVE库代码，其他CSIQ,TID2013,MLIVE库实验可以类似实现，**发现之前滤波窗口设置为`7*7`，改为`3*3`实验效果更好**
 
 - 实验结果可能有一些偏差，但不大，与SVR网格搜索寻优有关或者其他随机因素
    
