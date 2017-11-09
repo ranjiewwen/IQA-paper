@@ -12,7 +12,7 @@ featOpp = lmsColorOpponentFeats(lms); % Color opponency features.
 % Feature Computation
 %-------------------------------------------------
 scalenum = 3;
-window = fspecial('gaussian',7,7/6); % fspecial函数用于创建预定义的滤波算子
+window = fspecial('gaussian',3,3/2); % fspecial鍑芥暟鐢ㄤ簬鍒涘缓棰勫畾涔夌殑婊ゆ尝绠楀瓙
 window = window/sum(sum(window));
 
 %% LBP
@@ -24,7 +24,7 @@ MAPPING = getmapping( P, mtype );
 
 feat = [];
 imdist=double(rgb2gray(im2color));
-%tic  %在MATLAB里面可以使用tic和toc命令得到运行时间
+%tic  %鍦∕ATLAB閲岄潰鍙互浣跨敤tic鍜宼oc鍛戒护寰楀埌杩愯鏃堕棿
 for itr_scale = 1:scalenum
     %im2color = imdist;
     mu            = filter2(window, imdist, 'same');
