@@ -26,6 +26,39 @@
 
      - Mian_LIVE_Test：LIVE库上主函数
 
+## 运行方法
+
+- 在`Get_LIVE_Data.m`函数中设置LIVE数据库的路径：`Data_Dir`即可；然后运行`Mian_LIVE_Test.m`
+
+- 实验结果
+
+```
+result = 
+
+                 info: 'LIVE--color_lbp--Order_by_name--is_srocc_search: 0'
+                bestc: 256
+                bestg: 0.1088
+       libsvm_options: '-s 3 -t 2 -g 0.11 -c 256.000000'
+         spear_median: 0.9599
+            spear_max: 0.9823
+            spear_min: 0.9163
+          plcc_median: 0.9628
+             plcc_max: 0.9823
+             plcc_min: 0.9200
+             cur_date: '09-Nov-2017 16:45:22'
+    spear_median_jp2k: 0.9514
+     plcc_median_jp2k: 0.9636
+    spear_median_jpeg: 0.9714
+     plcc_median_jpeg: 0.9844
+      spear_median_wn: 0.9858
+       plcc_median_wn: 0.9924
+      spear_median_GB: 0.9439
+       plcc_median_GB: 0.9570
+      spear_median_FF: 0.9017
+       plcc_median_FF: 0.9369
+
+```
+
    
 ## 说明
 
