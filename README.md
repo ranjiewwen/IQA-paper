@@ -78,3 +78,5 @@ result =
 - 代码框架容易拓展，包括其他库的实现和添加新的算法
   
 - 以后努力方向：利用CNN实现特征提取和实现端到端的图像质量评价
+
+- 知网下载地址： [颜色空间统计联合纹理特征的无参考图像质量评价](http://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDTEMP&filename=GXJM201804021&uid=WEEvREcwSlJHSldRa1FhdkJkVWI3Y2ZOcnpMbVA1czFEcXJKODlNU3JMST0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4ggI8Fm4gTkoUKaID8j8gFw!!&v=MDI2NjdTN0RoMVQzcVRyV00xRnJDVVJMS2ZZdVpwRnl2a1dyclBJalhCWTdHNEg5bk1xNDlIWllSOGVYMUx1eFk=)
